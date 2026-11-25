@@ -1,0 +1,14 @@
+# Human-readable governance record; not executable Astra configuration.
+product_id: PROD-KIN-CI
+name: Cash Intelligence
+status: draft
+business_owner_role: TBC
+technical_owner_role: TBC
+data_owner_role: TBC
+primary_domains:
+  - cash-operations-analytics
+  - device-inventory-and-forecasting
+  - tcr-tcd-device-health-and-usage
+source_refs:
+  - SRC-CONF-CIR-001
+last_updated: 2026-10-28

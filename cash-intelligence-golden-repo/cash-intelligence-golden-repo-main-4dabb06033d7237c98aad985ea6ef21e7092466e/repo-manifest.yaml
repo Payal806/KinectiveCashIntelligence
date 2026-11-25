@@ -1,0 +1,18 @@
+# Human-readable governance record. Current Astra does not execute this file (SRC-ASTRA-IMPL-001 §14).
+golden_repo_id: GR-KIN-CI
+name: Kinective Cash Intelligence Golden Repository
+version: 0.1
+status: draft
+owner_role: Golden Repo Administrator (TBC)
+authoritative_principle: confluence-source-grounded   # requirements; the architecture is approved design (DEC-006)
+project_ref: projects/branch-automation-cash-intelligence
+product_ref: products/cash-intelligence
+source_registry_ref: projects/branch-automation-cash-intelligence/08-evidence-decisions/source-index.md
+artifact_metadata_schema: shared/schemas/artifact-metadata.md
+minimum_brd_context_pack: docs/minimum-brd-context-pack.md
+architecture_context_pack: docs/architecture-context-pack.md
+test_harness_context_pack: docs/test-harness-context-pack.md
+prism_ui_context_pack: astra.yaml   # prism_ui_context_pack; no selection page yet
+authoritative_systems:
+  source_code: https://gitlab.com/kinective.io/internal/abs/cash-intelligence/cash-intelligence-code-repo   # code, migrations, deploy and local environment (DEC-011, §14.3)
+last_updated: 2026-11-20

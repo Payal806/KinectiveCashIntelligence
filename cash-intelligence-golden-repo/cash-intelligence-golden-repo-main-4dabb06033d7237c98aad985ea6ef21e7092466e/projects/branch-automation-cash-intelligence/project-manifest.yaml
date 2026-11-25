@@ -1,0 +1,22 @@
+# Human-readable governance record; not executable Astra configuration.
+project_id: PRJ-KIN-BRAU-CI
+name: Cash Intelligence (Branch Automation)
+status: draft
+customer: Kinective
+confluence_space: BrAu (Branch Automation)
+product_ref: products/cash-intelligence
+business_owner_role: TBC
+executive_sponsor: TBC
+technical_owner_role: TBC
+security_owner_role: TBC
+data_owner_role: TBC
+delivery_owner_role: TBC
+source_authority:
+  - SRC-CONF-CIR-001
+  - SRC-XR-TDD-001    # Crossroads platform rules (DEC-007)
+  - SRC-PRISM-UI-001  # Prism 2.0 UI layer (DEC-017, proposed)
+pending_sources:
+  - SRC-PROTO-001   # prototype — excluded from this draft
+risk_tier: TBC
+deployment_profile: TBC
+last_updated: 2026-10-28

@@ -1,0 +1,69 @@
+# Human-readable context-selection convention only. Current Astra does not execute this file.
+version: 1
+project: branch-automation-cash-intelligence
+source_authority:
+  - SRC-CONF-CIR-001
+minimum_brd_context_pack:
+  - projects/branch-automation-cash-intelligence/01-business-product/business-context.md
+  - projects/branch-automation-cash-intelligence/01-business-product/scope-and-boundaries.md
+  - projects/branch-automation-cash-intelligence/01-business-product/personas-and-roles.md
+  - projects/branch-automation-cash-intelligence/01-business-product/business-rules.md
+  - projects/branch-automation-cash-intelligence/01-business-product/glossary.md
+  - projects/branch-automation-cash-intelligence/02-requirements/requirements-index.md
+  - projects/branch-automation-cash-intelligence/02-requirements/default-threshold-settings.md
+  - projects/branch-automation-cash-intelligence/02-requirements/assumptions-dependencies-open-questions.md
+  - projects/branch-automation-cash-intelligence/03-design-architecture/navigation-and-routes.md
+  - projects/branch-automation-cash-intelligence/03-design-architecture/external-touchpoints.md
+  - projects/branch-automation-cash-intelligence/04-data-ai/conceptual-data-dictionary.md
+  - projects/branch-automation-cash-intelligence/08-evidence-decisions/source-index.md
+  - projects/branch-automation-cash-intelligence/05-delivery/delivery-model-and-gates.md   # DEC-012, proposed
+full_requirement_detail:
+  - projects/branch-automation-cash-intelligence/02-requirements/req-*.md
+source_authority_platform:
+  - SRC-XR-TDD-001
+architecture_context_pack:   # approved design (DEC-006); selection gates in docs/architecture-context-pack.md
+  - products/cash-intelligence/architecture/architecture-overview.md
+  - global/03-engineering-architecture/crossroads-abs-obligations.md
+  - products/cash-intelligence/architecture/crossroads-platform-fit.md
+  - products/cash-intelligence/architecture/platform-and-services.md
+  - products/cash-intelligence/architecture/api-contract.md   # DEC-016
+  - products/cash-intelligence/architecture/ci-service-api.openapi.yaml   # DEC-016
+  - products/cash-intelligence/data/schema-map.md
+  - products/cash-intelligence/data/data-processing-flow.md
+  - products/cash-intelligence/integrations/freshness-options.md
+  - products/cash-intelligence/integrations/ingestion-staging-and-reconciliation.md
+  - products/cash-intelligence/architecture/identity-and-access.md
+  - products/cash-intelligence/architecture/tenancy-and-deployment-model.md
+  - products/cash-intelligence/architecture/deployment-and-scaling.md
+  - products/cash-intelligence/architecture/repositories-and-local-development.md
+  - products/cash-intelligence/data/mysql-implementation-patterns.md
+  - products/cash-intelligence/architecture/open-questions.md
+  - projects/branch-automation-cash-intelligence/08-evidence-decisions/decision-log.md
+  - projects/branch-automation-cash-intelligence/05-delivery/delivery-model-and-gates.md   # DEC-012, proposed
+  - projects/branch-automation-cash-intelligence/08-evidence-decisions/source-index.md
+full_architecture_detail:
+  - products/cash-intelligence/architecture/*.md
+  - products/cash-intelligence/data/*.md
+  - products/cash-intelligence/integrations/*.md
+source_authority_ui:
+  - SRC-PRISM-UI-001
+prism_ui_context_pack:   # DEC-017, DEC-018, proposed; the UI layer for the spec and build stages, not for BRDs
+  - global/03-engineering-architecture/prism-ui-layer.md
+  - global/03-engineering-architecture/prism-agent-instructions.md
+  - global/03-engineering-architecture/prism-design-rules.md
+  - global/03-engineering-architecture/prism-accessibility.md
+  - global/03-engineering-architecture/prism-naming-and-casing.md
+  - global/03-engineering-architecture/prism-availability.md
+  - global/08-approved-patterns-templates/prism-build-stage-pattern.md
+  - shared/templates/spec-ui-layer-template.md
+  - projects/branch-automation-cash-intelligence/03-design-architecture/prism-ui-layer-map.md
+  - projects/branch-automation-cash-intelligence/08-evidence-decisions/source-index.md
+test_harness_context_pack:   # with architecture_context_pack, for specs, test cases and work items with acceptance criteria;
+                             # selection in docs/test-harness-context-pack.md; DEC-024
+  - projects/branch-automation-cash-intelligence/05-delivery/harness/testing-with-the-harness.md
+  - projects/branch-automation-cash-intelligence/05-delivery/harness/harness-intent.md   # DEC-014
+  - projects/branch-automation-cash-intelligence/05-delivery/harness/seed-data.md
+  - projects/branch-automation-cash-intelligence/05-delivery/harness/source-shapes.md
+  - products/cash-intelligence/architecture/repositories-and-local-development.md
+  - shared/templates/spec-verification-template.md
+  - shared/templates/test-case-template.md
